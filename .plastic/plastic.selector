@@ -1,0 +1,4 @@
+repository "DRYDemo@210.31.73.21:8087"
+  path "/"
+    smartbranch "/main/gis20_12"  
+     

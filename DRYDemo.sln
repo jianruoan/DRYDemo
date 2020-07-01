@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{F55C8414-FADF-449B-8D4A-08CC87C19F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{1375ACEA-7D97-42E2-96BA-42C648407B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibrary", "EmployeeProcessor\EmployeeLibrary.csproj", "{1124FD92-2A5D-43D2-B762-F34F66883B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibraryTest", "EmployeeLibraryTest\EmployeeLibraryTest.csproj", "{094CBDDC-58BD-4A58-BD46-926721139FE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeLibraryDotNetCore", "EmployeeLibraryDotNetCore\EmployeeLibraryDotNetCore.csproj", "{2454E097-5D31-4257-A40B-368F730D5229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F55C8414-FADF-449B-8D4A-08CC87C19F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55C8414-FADF-449B-8D4A-08CC87C19F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55C8414-FADF-449B-8D4A-08CC87C19F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55C8414-FADF-449B-8D4A-08CC87C19F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1375ACEA-7D97-42E2-96BA-42C648407B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1375ACEA-7D97-42E2-96BA-42C648407B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1375ACEA-7D97-42E2-96BA-42C648407B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1375ACEA-7D97-42E2-96BA-42C648407B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1124FD92-2A5D-43D2-B762-F34F66883B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1124FD92-2A5D-43D2-B762-F34F66883B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1124FD92-2A5D-43D2-B762-F34F66883B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1124FD92-2A5D-43D2-B762-F34F66883B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094CBDDC-58BD-4A58-BD46-926721139FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094CBDDC-58BD-4A58-BD46-926721139FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094CBDDC-58BD-4A58-BD46-926721139FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094CBDDC-58BD-4A58-BD46-926721139FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2454E097-5D31-4257-A40B-368F730D5229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2454E097-5D31-4257-A40B-368F730D5229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2454E097-5D31-4257-A40B-368F730D5229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2454E097-5D31-4257-A40B-368F730D5229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9C63FE1-6882-431F-9219-728031EFAEF2}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccProjectName0 = DRYDemo
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Plastic\u0020SCC\u0020Plug-In
+		SccProjectUniqueName1 = ConsoleUI\\ConsoleUI.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ConsoleUI\\
+		SccProjectUniqueName2 = EmployeeLibraryDotNetCore\\EmployeeLibraryDotNetCore.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = EmployeeLibraryDotNetCore\\
+		SccProjectUniqueName3 = EmployeeLibraryTest\\EmployeeLibraryTest.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = EmployeeLibraryTest\\
+		SccProjectUniqueName4 = EmployeeProcessor\\EmployeeLibrary.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = EmployeeProcessor\\
+		SccProjectUniqueName5 = WinFormUI\\WinFormUI.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = WinFormUI\\
+	EndGlobalSection
+EndGlobal
