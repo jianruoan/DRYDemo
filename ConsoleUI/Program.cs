@@ -24,7 +24,7 @@ namespace ConsoleUI
             string employeeId = processor.GenerateEmployeeId(firstName, lastName);
 
             Console.WriteLine($"Your employee id is: { employeeId }");
-
+            Console.WriteLine($"Thank you {firstName} {lastName}");
             Console.ReadLine();
         }
     }
