@@ -8,6 +8,7 @@ namespace EmployeeLibrary
 {
     public class EmployeeProcessor
     {
+        // 这是内部操作函数
         public string GenerateEmployeeId(string firstName, string lastName)
         {
             string employeeId = $@"{ getSubstring(firstName, 4) }{ getSubstring(lastName, 4) }{ DateTime.Now.Millisecond }";
